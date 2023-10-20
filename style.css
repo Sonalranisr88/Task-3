@@ -94,9 +94,7 @@ h2{
 .stars{
     color: blue;
 }
-section{
-    background-color: rgb(36, 14, 36);
-}
+
 
 @media(max-width: 800px){
     nav .mainMenu {
@@ -127,6 +125,12 @@ section{
     main{   
         float: left;
     }
+    div{
+        position: absolute; 
+        left: 50%; 
+        width: 800px;
+        margin-left: -400px;
+}
     
     
 
